@@ -3,17 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		016AC3D5FDB553ECB6600346 /* Pods_Wainnakel_WainnakelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21E7E6FB000C9633AFA703B /* Pods_Wainnakel_WainnakelUITests.framework */; };
+		1921C2C22379C94800E47403 /* RestaurantDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1921C2C12379C94800E47403 /* RestaurantDelegate.swift */; };
+		1921C2C52379C96700E47403 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1921C2C42379C96700E47403 /* UIViewController+Extension.swift */; };
+		1921C2C72379C9A100E47403 /* DispatchQueueHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1921C2C62379C9A100E47403 /* DispatchQueueHelper.swift */; };
+		1921C2C92379C9BB00E47403 /* GlobalFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1921C2C82379C9BB00E47403 /* GlobalFunction.swift */; };
+		1921C2D02379CA5800E47403 /* RestaurantDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1921C2CF2379CA5800E47403 /* RestaurantDetailsVC.swift */; };
+		1921C2D32379CA8F00E47403 /* RestaurantDetailsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1921C2D22379CA8F00E47403 /* RestaurantDetailsVM.swift */; };
+		1921C2D62379CABF00E47403 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1921C2D52379CABF00E47403 /* EndPoint.swift */; };
+		1921C2D82379CADF00E47403 /* RestaurantEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1921C2D72379CADF00E47403 /* RestaurantEnum.swift */; };
+		1921C2DA2379CAFE00E47403 /* NetworkAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1921C2D92379CAFE00E47403 /* NetworkAdapter.swift */; };
+		1921C2DD2379CB2500E47403 /* ResturanrtCodableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1921C2DC2379CB2500E47403 /* ResturanrtCodableModel.swift */; };
 		1973F89B237330B200C7CAC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1973F89A237330B200C7CAC1 /* AppDelegate.swift */; };
 		1973F89D237330B200C7CAC1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1973F89C237330B200C7CAC1 /* SceneDelegate.swift */; };
-		1973F89F237330B200C7CAC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1973F89E237330B200C7CAC1 /* ViewController.swift */; };
+		1973F89F237330B200C7CAC1 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1973F89E237330B200C7CAC1 /* HomeVC.swift */; };
 		1973F8A2237330B200C7CAC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1973F8A0237330B200C7CAC1 /* Main.storyboard */; };
 		1973F8A4237330B300C7CAC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1973F8A3237330B300C7CAC1 /* Assets.xcassets */; };
 		1973F8A7237330B300C7CAC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1973F8A5237330B300C7CAC1 /* LaunchScreen.storyboard */; };
 		1973F8B2237330B300C7CAC1 /* WainnakelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1973F8B1237330B300C7CAC1 /* WainnakelUITests.swift */; };
+		1973F8BD2373347600C7CAC1 /* CustomGradientUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1973F8BC2373347600C7CAC1 /* CustomGradientUiView.swift */; };
+		1973F8BF2373351700C7CAC1 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1973F8BE2373351700C7CAC1 /* UIView+Extension.swift */; };
+		1973F8C12373412200C7CAC1 /* CustomeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1973F8C02373412200C7CAC1 /* CustomeButton.swift */; };
+		198AF8BF237ACAD2001F5900 /* SpinerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198AF8BE237ACAD2001F5900 /* SpinerLayer.swift */; };
+		198AF8C1237ACB24001F5900 /* CGRect+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198AF8C0237ACB24001F5900 /* CGRect+Extension.swift */; };
+		198AF8C4237ACE69001F5900 /* TransitionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198AF8C3237ACE69001F5900 /* TransitionButton.swift */; };
+		7B89482EE3FA413528D1258A /* Pods_Wainnakel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DEA0AE95197AD2E3A196835 /* Pods_Wainnakel.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,10 +45,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12B175C98C4144763383BB96 /* Pods-Wainnakel-WainnakelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wainnakel-WainnakelUITests.release.xcconfig"; path = "Target Support Files/Pods-Wainnakel-WainnakelUITests/Pods-Wainnakel-WainnakelUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1921C2C12379C94800E47403 /* RestaurantDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDelegate.swift; sourceTree = "<group>"; };
+		1921C2C42379C96700E47403 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		1921C2C62379C9A100E47403 /* DispatchQueueHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchQueueHelper.swift; sourceTree = "<group>"; };
+		1921C2C82379C9BB00E47403 /* GlobalFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalFunction.swift; sourceTree = "<group>"; };
+		1921C2CF2379CA5800E47403 /* RestaurantDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailsVC.swift; sourceTree = "<group>"; };
+		1921C2D22379CA8F00E47403 /* RestaurantDetailsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailsVM.swift; sourceTree = "<group>"; };
+		1921C2D52379CABF00E47403 /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		1921C2D72379CADF00E47403 /* RestaurantEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantEnum.swift; sourceTree = "<group>"; };
+		1921C2D92379CAFE00E47403 /* NetworkAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAdapter.swift; sourceTree = "<group>"; };
+		1921C2DC2379CB2500E47403 /* ResturanrtCodableModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResturanrtCodableModel.swift; sourceTree = "<group>"; };
 		1973F897237330B200C7CAC1 /* Wainnakel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wainnakel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1973F89A237330B200C7CAC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1973F89C237330B200C7CAC1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1973F89E237330B200C7CAC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1973F89E237330B200C7CAC1 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		1973F8A1237330B200C7CAC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1973F8A3237330B300C7CAC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1973F8A6237330B300C7CAC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +67,17 @@
 		1973F8AD237330B300C7CAC1 /* WainnakelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WainnakelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1973F8B1237330B300C7CAC1 /* WainnakelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WainnakelUITests.swift; sourceTree = "<group>"; };
 		1973F8B3237330B300C7CAC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1973F8BC2373347600C7CAC1 /* CustomGradientUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGradientUiView.swift; sourceTree = "<group>"; };
+		1973F8BE2373351700C7CAC1 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		1973F8C02373412200C7CAC1 /* CustomeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeButton.swift; sourceTree = "<group>"; };
+		198AF8BE237ACAD2001F5900 /* SpinerLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinerLayer.swift; sourceTree = "<group>"; };
+		198AF8C0237ACB24001F5900 /* CGRect+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGRect+Extension.swift"; sourceTree = "<group>"; };
+		198AF8C3237ACE69001F5900 /* TransitionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionButton.swift; sourceTree = "<group>"; };
+		1F87F23F7F7F64D80BFDA7A4 /* Pods-Wainnakel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wainnakel.debug.xcconfig"; path = "Target Support Files/Pods-Wainnakel/Pods-Wainnakel.debug.xcconfig"; sourceTree = "<group>"; };
+		7DEA0AE95197AD2E3A196835 /* Pods_Wainnakel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wainnakel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96B224FA34E4EC37F6325627 /* Pods-Wainnakel-WainnakelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wainnakel-WainnakelUITests.debug.xcconfig"; path = "Target Support Files/Pods-Wainnakel-WainnakelUITests/Pods-Wainnakel-WainnakelUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E049645A4CA3D6DC792A33A8 /* Pods-Wainnakel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wainnakel.release.xcconfig"; path = "Target Support Files/Pods-Wainnakel/Pods-Wainnakel.release.xcconfig"; sourceTree = "<group>"; };
+		F21E7E6FB000C9633AFA703B /* Pods_Wainnakel_WainnakelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wainnakel_WainnakelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B89482EE3FA413528D1258A /* Pods_Wainnakel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +93,140 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				016AC3D5FDB553ECB6600346 /* Pods_Wainnakel_WainnakelUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A9721BDB06F3C67119200A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DEA0AE95197AD2E3A196835 /* Pods_Wainnakel.framework */,
+				F21E7E6FB000C9633AFA703B /* Pods_Wainnakel_WainnakelUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1921C2BF2379C92600E47403 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1921C2DE2379CB7100E47403 /* CustomeControls */,
+				1921C2C32379C95D00E47403 /* Extension */,
+				1921C2C02379C93300E47403 /* Protocol */,
+				1921C2C62379C9A100E47403 /* DispatchQueueHelper.swift */,
+				1921C2C82379C9BB00E47403 /* GlobalFunction.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		1921C2C02379C93300E47403 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				1921C2C12379C94800E47403 /* RestaurantDelegate.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		1921C2C32379C95D00E47403 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1973F8BE2373351700C7CAC1 /* UIView+Extension.swift */,
+				1921C2C42379C96700E47403 /* UIViewController+Extension.swift */,
+				198AF8C0237ACB24001F5900 /* CGRect+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		1921C2CA2379C9DD00E47403 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				1973F89A237330B200C7CAC1 /* AppDelegate.swift */,
+				1973F89C237330B200C7CAC1 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		1921C2CB2379C9F200E47403 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				1973F8A3237330B300C7CAC1 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		1921C2CC2379CA0000E47403 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1921C2CE2379CA1D00E47403 /* ViewController */,
+				1921C2CD2379CA0E00E47403 /* Storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1921C2CD2379CA0E00E47403 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				1973F8A0237330B200C7CAC1 /* Main.storyboard */,
+				1973F8A5237330B300C7CAC1 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		1921C2CE2379CA1D00E47403 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1973F89E237330B200C7CAC1 /* HomeVC.swift */,
+				1921C2CF2379CA5800E47403 /* RestaurantDetailsVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1921C2D12379CA7900E47403 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1921C2D22379CA8F00E47403 /* RestaurantDetailsVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1921C2D42379CAB500E47403 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1921C2D52379CABF00E47403 /* EndPoint.swift */,
+				1921C2D72379CADF00E47403 /* RestaurantEnum.swift */,
+				1921C2D92379CAFE00E47403 /* NetworkAdapter.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1921C2DB2379CB1B00E47403 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1921C2DC2379CB2500E47403 /* ResturanrtCodableModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1921C2DE2379CB7100E47403 /* CustomeControls */ = {
+			isa = PBXGroup;
+			children = (
+				198AF8C2237ACE4C001F5900 /* TransitionButton */,
+				1973F8C02373412200C7CAC1 /* CustomeButton.swift */,
+				1973F8BC2373347600C7CAC1 /* CustomGradientUiView.swift */,
+			);
+			path = CustomeControls;
+			sourceTree = "<group>";
+		};
 		1973F88E237330B200C7CAC1 = {
 			isa = PBXGroup;
 			children = (
 				1973F899237330B200C7CAC1 /* Wainnakel */,
 				1973F8B0237330B300C7CAC1 /* WainnakelUITests */,
 				1973F898237330B200C7CAC1 /* Products */,
+				87413447FC271F913B828492 /* Pods */,
+				0A9721BDB06F3C67119200A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,12 +242,13 @@
 		1973F899237330B200C7CAC1 /* Wainnakel */ = {
 			isa = PBXGroup;
 			children = (
-				1973F89A237330B200C7CAC1 /* AppDelegate.swift */,
-				1973F89C237330B200C7CAC1 /* SceneDelegate.swift */,
-				1973F89E237330B200C7CAC1 /* ViewController.swift */,
-				1973F8A0237330B200C7CAC1 /* Main.storyboard */,
-				1973F8A3237330B300C7CAC1 /* Assets.xcassets */,
-				1973F8A5237330B300C7CAC1 /* LaunchScreen.storyboard */,
+				1921C2DB2379CB1B00E47403 /* Model */,
+				1921C2D42379CAB500E47403 /* Services */,
+				1921C2D12379CA7900E47403 /* ViewModel */,
+				1921C2CC2379CA0000E47403 /* View */,
+				1921C2CB2379C9F200E47403 /* Assets */,
+				1921C2CA2379C9DD00E47403 /* Application */,
+				1921C2BF2379C92600E47403 /* Utilities */,
 				1973F8A8237330B300C7CAC1 /* Info.plist */,
 			);
 			path = Wainnakel;
@@ -99,6 +263,26 @@
 			path = WainnakelUITests;
 			sourceTree = "<group>";
 		};
+		198AF8C2237ACE4C001F5900 /* TransitionButton */ = {
+			isa = PBXGroup;
+			children = (
+				198AF8BE237ACAD2001F5900 /* SpinerLayer.swift */,
+				198AF8C3237ACE69001F5900 /* TransitionButton.swift */,
+			);
+			path = TransitionButton;
+			sourceTree = "<group>";
+		};
+		87413447FC271F913B828492 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F87F23F7F7F64D80BFDA7A4 /* Pods-Wainnakel.debug.xcconfig */,
+				E049645A4CA3D6DC792A33A8 /* Pods-Wainnakel.release.xcconfig */,
+				96B224FA34E4EC37F6325627 /* Pods-Wainnakel-WainnakelUITests.debug.xcconfig */,
+				12B175C98C4144763383BB96 /* Pods-Wainnakel-WainnakelUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +290,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1973F8B6237330B300C7CAC1 /* Build configuration list for PBXNativeTarget "Wainnakel" */;
 			buildPhases = (
+				742C09F48AC703773EE76709 /* [CP] Check Pods Manifest.lock */,
 				1973F893237330B200C7CAC1 /* Sources */,
 				1973F894237330B200C7CAC1 /* Frameworks */,
 				1973F895237330B200C7CAC1 /* Resources */,
+				94170C8FB6CFFDAFE195E06C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,9 +309,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1973F8B9237330B300C7CAC1 /* Build configuration list for PBXNativeTarget "WainnakelUITests" */;
 			buildPhases = (
+				E2C100AE476453E38F43033C /* [CP] Check Pods Manifest.lock */,
 				1973F8A9237330B300C7CAC1 /* Sources */,
 				1973F8AA237330B300C7CAC1 /* Frameworks */,
 				1973F8AB237330B300C7CAC1 /* Resources */,
+				58D18A83321B94EB9945B755 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -195,14 +383,111 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		58D18A83321B94EB9945B755 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wainnakel-WainnakelUITests/Pods-Wainnakel-WainnakelUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wainnakel-WainnakelUITests/Pods-Wainnakel-WainnakelUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wainnakel-WainnakelUITests/Pods-Wainnakel-WainnakelUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		742C09F48AC703773EE76709 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wainnakel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94170C8FB6CFFDAFE195E06C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wainnakel/Pods-Wainnakel-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wainnakel/Pods-Wainnakel-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wainnakel/Pods-Wainnakel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2C100AE476453E38F43033C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wainnakel-WainnakelUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1973F893237330B200C7CAC1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1973F89F237330B200C7CAC1 /* ViewController.swift in Sources */,
+				198AF8C4237ACE69001F5900 /* TransitionButton.swift in Sources */,
+				1921C2D02379CA5800E47403 /* RestaurantDetailsVC.swift in Sources */,
+				1973F89F237330B200C7CAC1 /* HomeVC.swift in Sources */,
+				1973F8C12373412200C7CAC1 /* CustomeButton.swift in Sources */,
+				1921C2C22379C94800E47403 /* RestaurantDelegate.swift in Sources */,
+				198AF8BF237ACAD2001F5900 /* SpinerLayer.swift in Sources */,
+				1921C2C72379C9A100E47403 /* DispatchQueueHelper.swift in Sources */,
 				1973F89B237330B200C7CAC1 /* AppDelegate.swift in Sources */,
+				1921C2D62379CABF00E47403 /* EndPoint.swift in Sources */,
+				1921C2D32379CA8F00E47403 /* RestaurantDetailsVM.swift in Sources */,
+				198AF8C1237ACB24001F5900 /* CGRect+Extension.swift in Sources */,
 				1973F89D237330B200C7CAC1 /* SceneDelegate.swift in Sources */,
+				1921C2DA2379CAFE00E47403 /* NetworkAdapter.swift in Sources */,
+				1921C2DD2379CB2500E47403 /* ResturanrtCodableModel.swift in Sources */,
+				1921C2D82379CADF00E47403 /* RestaurantEnum.swift in Sources */,
+				1921C2C52379C96700E47403 /* UIViewController+Extension.swift in Sources */,
+				1921C2C92379C9BB00E47403 /* GlobalFunction.swift in Sources */,
+				1973F8BF2373351700C7CAC1 /* UIView+Extension.swift in Sources */,
+				1973F8BD2373347600C7CAC1 /* CustomGradientUiView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,11 +645,13 @@
 		};
 		1973F8B7237330B300C7CAC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F87F23F7F7F64D80BFDA7A4 /* Pods-Wainnakel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7H9L7MTT7T;
 				INFOPLIST_FILE = Wainnakel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -378,11 +665,13 @@
 		};
 		1973F8B8237330B300C7CAC1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E049645A4CA3D6DC792A33A8 /* Pods-Wainnakel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7H9L7MTT7T;
 				INFOPLIST_FILE = Wainnakel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -396,6 +685,7 @@
 		};
 		1973F8BA237330B300C7CAC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96B224FA34E4EC37F6325627 /* Pods-Wainnakel-WainnakelUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -416,6 +706,7 @@
 		};
 		1973F8BB237330B300C7CAC1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12B175C98C4144763383BB96 /* Pods-Wainnakel-WainnakelUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
